@@ -61,3 +61,58 @@ td:not(td:last-child) {
   width: 22.5rem;
   text-align: left;
 }
+
+/* * {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: lightgreen;
+} */
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+table {
+  background-color: lightslategray;
+  color: #FFF;
+  border-spacing: 2px;
+}
+
+thead th,
+tbody td {
+  border: 1px solid #28333f;
+  padding: 1rem;
+}
+
+thead th {
+  background-color: #202932;
+  text-align: left;
+}
+
+tbody tr:nth-last-of-type(even) {
+  background-color: #3d4b5a;
+}
+
+tbody td:last-child {
+  text-align: center;
+}
+
+td:not(td:last-child) {
+  text-align: left;
+  width: 22.5rem;
+}
+
+.button {
+  background-color: #4c60a1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}

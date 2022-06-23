@@ -24,7 +24,7 @@ section h3 {
 table {
   background-color: #2c3845;
   border-collapse: separate;
-  border-spacing: 1px;
+  border-spacing: 3px;
   color: #fff;
 }
 
@@ -35,7 +35,7 @@ tbody td {
   padding-right: 25px;
 }
 
-thead th{
+thead th {
   text-align: left;
   background-color: #202932;
 }
@@ -47,4 +47,17 @@ tbody tr:nth-of-type(even) {
 tbody:last-child {
   color: #b8c4d2;
   text-align: center;
+}
+
+button {
+  background-color: #4b908f;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px;
+  border: none;
+}
+
+td:not(td:last-child) {
+  width: 22.5rem;
+  text-align: left;
 }

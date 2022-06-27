@@ -9,19 +9,23 @@
       src="https://kit.fontawesome.com/10cbf98cac.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800;900&display=swap" rel="stylesheet">
     <title>Login Form</title>
   </head>
   <body>
     <main>
       <div class="login-form">
-        <h2>Login</h2>
+        <h2 class="login-form-heading">Login</h2>
         <div class="social-icon">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter-square"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
         </div>
         <p>or use your account</p>
         <div class="input-boxes">
-          <input
+          <form action="">
+              <input
             class="input-box"
             type="email"
             name="email"
@@ -37,11 +41,13 @@
             placeholder="Password"
           />
         </div>
-        <p>Forgot your password?</p>
-        <button type="submit">LOG IN</button>
+        <a href="http://">Forgot your password?</a>
+        <br>
+        <input type="button" value="LOG IN">
+    </form> 
       </div>
       <div class="login-text">
-        <h1>HTML CSS Login Form</h1>
+        <h2>HTML CSS Login Form</h2>
         <p>
           This login form is created using pure HTML and CSS. For social icons
           FontAwesome is used.

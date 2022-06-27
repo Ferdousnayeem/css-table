@@ -24,43 +24,43 @@ main > * {
 .login-form {
   background-color: #fff;
   text-align: center;
-  padding: 25px ;
+  padding: 25px;
 }
 
 form > input {
-    width: 100%;
-    padding: 8px;
-    margin: 5px 0px;
-    color: #00000063;
-    background-color: #00000028;
-    border: none;
-    font-size: 0.85rem;
-    font-weight: 500;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0px;
+  color: #00000063;
+  background-color: #00000028;
+  border: none;
+  font-size: 0.85rem;
+  font-weight: 500;
 }
 
 .login-form > p {
-    font-size: 0.85rem;
-    font-weight: 600;
-    margin-bottom: 8px;
-    color: #00000063;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #00000063;
 }
 
 .login-form > a {
-    display: inline-block;
-    text-decoration: none;
-    font-size: 0.85rem;
-    font-weight: 600;
-    margin: 12px 0px;
-    color: #0000008c;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 12px 0px;
+  color: #0000008c;
 }
 
 input[type="button"] {
-    background-color: #ff4b2b;
-    padding: 10px 30px;
-    border: none;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 0.7rem;
+  background-color: #ff4b2b;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 0.7rem;
 }
 
 .login-text {
@@ -68,18 +68,35 @@ input[type="button"] {
   text-align: center;
 }
 
-.login-form-heading, .social-icon {
-    margin-bottom: 25px;
-    font-size: 32px;
+.login-form-heading,
+.social-icon {
+  margin-bottom: 25px;
+  font-size: 32px;
 }
 
-.fa-facebook-f, .fa-twitter {
-    font-size: 36px;
-    border-radius: 50%;
-    padding: 10px;
-    height: 50px;
-    width: 50px;
-    margin: 1px;
-    background-color: #fff;
-    border: 1px solid #00000023;
+.fa-facebook-f,
+.fa-twitter {
+  font-size: 36px;
+  border-radius: 50%;
+  padding: 8px;
+  height: 50px;
+  width: 50px;
+  margin: 1px;
+  background-color: #fff;
+  border: 1px solid #00000023;
 }
+
+.login-text-heading {
+    font-size: 2rem;
+}
+
+.login-text > p {
+  font-size: 0.80rem;
+  padding: 6px 20px;
+}
+
+.login-text {
+  padding: 121px 20px;
+  color: #fff;
+}
+
